@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merve Nur Durmuş</title>
+    <link rel="icon" href="../Assets/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="top-menu">
+        <div class="menu-container">
+            <div class="logo"><a href="index.html">Merve Nur Durmuş</a></div>
+            <nav class="nav-links">
+                <a href="../ana-sayfa/index.html">ANA SAYFA</a>
+                <div class="dropdown">
+                    <a class="seçili" href="../blog/index.html">BLOG</a>
+                    <div class="dropdown-content">
+                        <a href="../blog/index.html#akademik-araştırma-yazıları"
+                            data-category="akademik-araştırma-yazıları">Akademik & Araştırma Yazıları</a>
+                        <a href="../blog/index.html#aynanın-öye-yakası" class="seçili"
+                            data-category="aynanın-öte-yakası">Aynanın Öte Yakası</a>
+                        <a href="../blog/index.html#edebiyat-şiir" data-category="edebiyat-şiir">Edebiyat & Şiir</a>
+                        <a href="../blog/index.html#ruhun-haritaları" data-category="ruhun-haritaları">Ruhun
+                            Haritaları</a>
+                    </div>
+                </div>
+                <a href=" ../galeri/index.html">GALERİ</a>
+                <a href="../arşiv/index.html">ARŞİV</a>
+                <a href=" ">HAKKINDA</a>
+                <div class="top-icons">
+                    <a class="mail" target="_blank"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=drmsmervenur@gmail.com"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                            class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                            <path
+                                d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                        </svg></a>
+                    <a class="insta" target="_blank" href="https://www.instagram.com/minervaietrusci/"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg></a>
+                </div>
+            </nav>
+            <div class="search-box">
+                <div class="icon">
+                    <div class="search-icon-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg></div>
+                </div><input type="search" placeholder="Click to Search ..." class="search" id="search"
+                    onkeyup="searchPage()">
+            </div>
+        </div>
+    </header>
+
+
+
+    <div role="main" class="main-content">
+        <!-- Sidebar -->
+        <div class="search-box-telefon">
+            <div class="icon">
+                <div class="search-icon-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg></div>
+            </div><input type="search" placeholder="Click to Search ..." class="search" id="search"
+                onkeyup="searchPage()">
+        </div>
+        <div role="complementary" class="sidebar">
+            <div class="profile-card-telefon">
+                <img src="../Assets/profil-fotoğrafı.jpg" alt="Profil Resmi" class="profile-img">
+                <h2 class="profile-name">Merve Nur Durmuş</h2>
+                <p class="profile-title">Eğitimci</p>
+                <p class="profile-description">27 yıllık yaşamında eğitimcilik, onun için yalnızca bilgi aktarmak değil;
+                    ruhları ve düşünceleri şekillendirmek, öğrencileriyle birlikte yolculuğa çıkmak demektir.</p><a
+                    href="../hakkında/index.html">Devamını oku </a>
+            </div>
+            <div class="sidebar-widget">
+                <h3>Popüler</h3>
+                <ul>
+                    <li><a href="../blog-1/index.html">Görünür İyilik, Toplumsal Bir Performanstır</a></li>
+                    <li><a href="../blog-2/index.html">Kül ve Akdeniz: Bu Bir Rıza Yelkenidir</a></li>
+                    <li><a href="../blog-3/index.html">Sudan'da İnsanlık Hâli: Kayıtsızlığın Epistemolojisi ve Etik
+                            Sorgulama</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="blog-container">
+            <!-- Blog Post 1 -->
+            <div class="blog-post" data-category="akademik-araştırma-yazıları">
+                <div class="post-content">
+                    <div class="post-category">Akademik & Araştırma Yazıları</div>
+                    <h2 class="post-title">HELENİSTİK VE ABBÂSÎ DÖNEMLERİNDE ŞİİRİN İŞLEVİ VE KÜLTÜREL DÖNÜŞÜMLER:
+                        KARŞILAŞTIRMALI BİR İNCELEME </h2>
+                    <p class="post-date">Temmuz 25, 2025</p>
+                    <img class="post-img" src="../Assets/blog-4-img.jpeg" alt="Post Image">
+                    <p class="post-text"> Öz <br>
+                        Bu çalışma, Helenistik ve Abbâsî dönemlerinde şiirin saray kültüründeki işlevini ve
+                        toplumsal-kültürel dönüşümlerini karşılaştırmalı olarak incelemektedir. Helenistik dönemde şiir,
+                        kralların ve elit sınıfın koruması altında gelişen, estetik ve entelektüel yönü öne çıkan bir
+                        ifade biçimi olarak değerlendirilmiştir. Şairler, sarayların ideolojik yapısını desteklemekle
+                        kalmayıp aynı zamanda bireysel duygu ve doğa temalarını da işlemişlerdir. Abbâsî döneminde ise
+                        şiir, politik, toplumsal ve dinî açılardan çok daha yoğun anlamlar yüklenmiş bir mecra hâline
+                        gelmiştir. Saray çevresindeki şairler, hem övgü hem hiciv yoluyla yönetimi ele almış; edebiyat,
+                        eleştirel düşüncenin ve kültürel birikimin taşıyıcısı olmuştur. Bu bağlamda, çalışmada şiirlerin
+                        estetik yapıları, toplumsal bağlamları, edebi türleri ve şairlerin konumları tarihsel ve
+                        metinsel karşılaştırmalarla analiz edilmiştir. Sonuç olarak, şiirin her iki dönemde de sadece
+                        sanat değil, aynı zamanda bir düşünce biçimi ve toplumsal aktör olduğu görülmektedir.
+                        Anahtar Kelimeler: Helenistik Dönem, Abbâsî Dönemi, Şiir, Saray Kültürü, Kültürel Dö-nüşüm,
+                        Toplumsal İşlev.
+                        <br> <br>
+                        The Function of Poetry and Cultural Transformations in the Hellenistic and Abbasid Peri-ods: A
+                        Comparative Study
+                        <br> <br>
+                        Abstract
+                        This study presents a comparative analysis of the role of poetry in palace culture and
+                        socio-cultural transformations during the Hellenistic and Abbasid periods. In the Hellenistic
+                        era, poetry developed under royal patronage and emphasized aesthetic and intellectual values.
+                        Po-ets supported court ideology while also exploring themes of nature and personal emotion.
+                        Dur-ing the Abbasid period, poetry became a more politically and socially charged medium,
+                        func-tioning both as praise and critique of the ruling elite. Abbasid poets engaged with
+                        ideological, religious, and societal discourse, transforming poetry into a tool of cultural
+                        expression and critique. This paper analyzes the formal structures, literary styles, and
+                        cultural functions of poetry in both periods, while also examining the position of poets in
+                        their respective societies through textual and historical comparisons. The findings demonstrate
+                        that poetry in both con-texts functioned not only as an artistic expression but also as a medium
+                        of thought and a so-cio-political force.
+                        Keywords: Hellenistic Period, Abbasid Period, Poetry, Palace Culture, Cultural Transfor-mation,
+                        Social Function.
+                        <br> <br>
+                        GİRİŞ
+                        Şiir, tarih boyunca yalnızca estetik bir ifade biçimi değil, aynı zamanda toplumsal, kültürel ve
+                        politik bir araç olarak da işlev görmüştür. Özellikle Helenistik ve Abbâsî dönem-lerde, saray
+                        kültürü ile şiir arasındaki ilişki, edebiyatın sosyal yapısını şekillendirmiştir. Bu makale, her
+                        iki dönemi karşılaştırmalı olarak inceleyerek, şiirin saray içindeki işlevlerini ve toplumsal
+                        dönüşümlere etkisini ortaya koymayı amaçlamaktadır.
+                        <br> <br>
+                        YÖNTEM
+                        Bu çalışma, nitel araştırma yöntemine dayalı olarak karşılaştırmalı bir edebi analiz tekniğini
+                        benimsemektedir. Araştırmanın temel amacı, Helenistik Yunan şiiri ile Abbâsî dö-nemi Arap
+                        şiirinin saray kültürü bağlamındaki işlevlerini, biçimsel yapılarını ve toplumsal rollerini
+                        karşılaştırmalı olarak incelemektir. Çalışmada, ilgili dönemlere ait seçilmiş şiir örnekleri
+                        tarihsel, kültürel ve retorik bağlamda çözümlemeye tabi tutulmuş; şiirlerde yer alan temalar,
+                        dil kullanımı, sarayla olan ilişki biçimi ve şairin toplumsal konumu metinler arası
+                        karşılaştırma yöntemiyle değerlendirilmiştir. Bu yöntem doğrultusunda hem Antik Yunan hem de
+                        İslam dünyası şiirinde sarayın edebî üretim üzerindeki etkisi ele alınmış; edebiyatın
+                        sosyo-politik boyutları tarihsel kaynaklar, edebi metinler ve ikincil akademik çalışmalar
+                        ışığın-da yorumlanmıştır.
+                        <br> <br>
+                        1. HELENİSTİK DÖNEMDE ŞİİR VE SARAY KÜLTÜRÜ
+                        1.1 Saray ve Şairler
+                        Helenistik dönemin şairleri, sarayların himayesindeki sanatçılar olarak, sadece estetik değil,
+                        aynı zamanda toplumsal ve politik işlevler taşıyan şiirler üretmişlerdir. Krallar ve
+                        hükümdarlar, şairleri saraya davet ederek onlara maddi destek sağlamış ve sanatla toplumsal
+                        itibarlarını pekiştirmişlerdir. Theocritus gibi şairler pastoral şiirle doğanın güzelliklerini
+                        yücel-terek, saray kültürünün doğaya duyduğu sevgiyi şiirlerine yansıtmışlardır. Bu dönemde
+                        şiir, hükümdarların güçlerini simgeleyen bir araç haline gelmiştir (Winkler, 1991).
+                        <br> <br>
+                        1.2 Edebi Çevreler ve Toplumsal Rol
+                        Helenistik dönemin edebi çevreleri, İskenderiye ve Antakya gibi merkezlerde yoğun-laşmıştır. Bu
+                        şehirlerde sarayların desteklediği akademik ve sanatsal faaliyetler, hem şairlerin kariyerlerini
+                        inşa etmelerini sağlamış hem de bu şairlerin toplumsal yapıdaki etkilerini güçlendirmiştir. Bu
+                        dönem, şiirle saray arasındaki ilişkiyi sadece sanatın değil, gücün ve poli-tikaların da önemli
+                        bir yansıması olarak anlamamızı sağlamaktadır (Harder, 1999).
+                        <br> <br>
+                        2. ABBÂSÎ DÖNEMİ ŞİİR VE SARAY KÜLTÜRÜ
+                        2.1 Saray ve Şairler
+                        Abbâsîler dönemi, Bağdat gibi merkezlerde şiir ile saray arasındaki ilişkiyi politik bir araç
+                        olarak kullanmıştır. Halifeler, şairlere büyük maddi destekler sağlamış ve onları kültürel
+                        prestij için kullanmışlardır. Harun Reşid ve Me’mun gibi halifeler, şiir ve edebiyatı sadece
+                        estetik değil, ideolojik ve politik bir enstrüman olarak kullanmışlardır (Kraemer, 1985). Abu
+                        Nuwas ve Mutanabbi gibi şairler, sarayın ikiyüzlü yapısını şiirlerinde eleştirmiş ve bunu
+                        dö-nemin toplumsal yapısına yönelik derin bir bakış olarak kullanmışlardır (Brockelmann, 1943).
+                        2.2 Edebi Çevreler ve Toplumsal Rol
+                        Abbâsî dönemi, şairlerin sadece sarayla olan ilişkilerini değil, toplumdaki rollerini de
+                        ye-niden tanımlamıştır. Sarayın himayesinde yaşayan şairler, halkın sesi olmayı da başararak,
+                        zaman zaman toplumun değerlerine ve düzenine karşı toplumsal eleştiriler yapmışlardır. Şiir, bu
+                        dönemde yalnızca saraya yönelik değil, aynı zamanda toplumsal adaletsizliklere karşı da bir
+                        ifade biçimi olmuştur (Gibb, 1955, s. 153-157).
+                        <br> <br>
+                        3. ŞİİR VE SARAYIN TOPLUMSAL ROLÜ: KARŞILAŞTIRMALI ANALİZ
+                        3.1 Toplumsal Rol ve Gücün Yansıması
+                        Helenistik ve Abbâsî dönemlerinde şiir, sarayın ve toplumsal yapının güç ilişkilerinin yansıması
+                        olmuştur. Her iki dönemde de şairler, sarayla güçlü bağlar kurarak eserlerinde poli-tik ve
+                        toplumsal temalar işlemişlerdir. Helenistik dönemde, şairler saray ideolojisini yücel-tirken,
+                        Abbâsîlerde aynı şairler zaman zaman bu gücü eleştirmiştir. Bu fark, her iki kültürdeki saray
+                        yapısının ve toplumsal yapının farklılıklarını gözler önüne sermektedir (Gibb, 1955, s.
+                        153-154).
+                        3.2 Şiirin Sosyal ve Kültürel Fonksiyonu
+                        Her iki dönemde de şiir, sadece edebiyat değil, aynı zamanda sosyal ve kültürel bir bağ
+                        oluşturmuştur. Şairler, sarayların himayesindeki sanatçı olarak toplumsal yapıyı şekillendiren
+                        bir araç haline gelmişlerdir. Helenistik dönemde daha fazla estetik ve entelektüel yönlere
+                        odaklanırken, Abbâsî dönemde şiir, toplumsal eleştirilerle de harmanlanmış ve bireysel
+                        özgürlüklerin ön plana çıkmasına olanak sağlamıştır (Gibb, 1955, s. 157).
+                        <br> <br>
+                        4. ŞİİRİN ESTETİK VE DİLSEL YAPISI: HELENİSTİK VE ABBÂSÎ DÖNEMLERİNDE BİÇİM VE RETORİK
+                        4.1 Biçim ve Yapı
+                        Helenistik dönemde şiir, elegi ve epigram türlerinde gelişmiş, metrik yapı olarak genelli-kle
+                        hexametre ve pentametre kalıplarıyla yazılmıştır. Bu yapı şiire formel bir düzen ve melodik bir
+                        etki kazandırmıştır. Meleagros’un epigramlarında kısa, özlü ifadeler dikkat çeker:
+                        > "Τὰ μὲν ἐμὰ Μούσαισιν, Ἔρως δ᾿ ἔχει τὰ σοφά."
+                        “Benim olanlar Musalara aittir, ama bilgelik Eros'un elindedir.” (Meleagros, MÖ, Epi-gram 34).
+                        Abbâsî döneminde ise Arap şiiri, kaside, gazel, kıt’a gibi türlerde ilerlemiş ve “aruz vez-ni”
+                        olarak bilinen ölçü sistemi kullanılmıştır. Örneğin el-Mutenebbî’nin şu beyitleri, hem yapı hem
+                        anlam açısından dikkat çekicidir:
+                        > إِذا غامرتَ في شرفٍ مرومِ * فلا تقنعْ بما دونَ النجومِ
+                        “Eğer ulaşılması güç bir şerefe atıldıysan, yıldızlardan aşağısıyla yetinme.” (el-Mutenebbî,
+                        1964 Dîvân, s. 112).
+                        4.2 Retorik Unsurlar ve Anlatım Teknikleri
+                        Helenistik şiir, simgecilik, ironi ve mitolojik göndermelerle bezenmiştir. Kallima-khos’un
+                        şiirlerinde mitolojik benzetmeler ve alegorik söylem öne çıkar:
+                        > "Μικρὸν ποίημα μέγα νόημα φέρει."
+                        “Küçük bir şiir, büyük bir anlam taşır.” (Callimachus, MÖ, Frag. 1.1-2).
+                        Abbâsî şiirinde ise cinas, teşbih ve mecazlar yoğun biçimde kullanılmış; “bedî‘” sanatı
+                        gelişmiştir. Bu edebi sanatlar, şairin entelektüel gücünü göstermek için önemli bir araç hâline
+                        gelmiştir.
+                        4.3 Dilin Şiirsel İşlevi
+                        Helenistik dönemde kullanılan dil, Koine Yunancasıdır; bu, şiirin daha geniş kitlelere
+                        ulaşmasını sağlasa da elit bir yapıda kalmıştır.
+                        Abbâsî şiirinde ise Arap dili, kutsal metinlerle iç içe geçmiş, Kur’an etkisiyle estetikten öte
+                        kültürel ve ruhsal bir anlam da taşımıştır. El-Buhturî’nin saray şiirleri, hem estetik bir süs
+                        hem de siyasi bir övgü vasıtası olarak işlev görür.
+                        <br> <br>
+                        5. ŞİİRDE MİTOLOJİ VE DİNÎ REFERANSLAR: YUNAN VE İSLAMİ BAĞLAM-LARIN KARŞILAŞTIRILMASI
+                        Helenistik şiir, antik Yunan mitolojisinin figürlerini yalnızca epik geleneğin taşıyıcısı olarak
+                        değil, aynı zamanda insan doğasını çözümleyen metaforlar olarak da kullanmıştır. Örneğin,
+                        Kallimakhos’un şiirlerinde Apollon yalnızca bir tanrı değil, aynı zamanda sanatın ve seçici
+                        estetiğin simgesidir:
+                        > Λίποιμ᾽ ἂν Μοῦσαν, ἢν μὴ Κολλίπας ᾄδῃ.
+                        “Kollipas ezgiler söylemiyorsa, ben ilham perisini terk ederim.” (Campbell, 1982).
+                        Bu ifade, tanrılarla kurulan şiirsel ilişkinin bireysel estetikle birleştiğini gösterir.
+                        Tanrısal figürler, yalnızca metafor değil, aynı zamanda şairin kültürel aidiyetini de temsil
+                        eder. <br>
+                        Abbâsî dönemi Arap şiirinde ise İslamî referanslar — Kur’an kıssaları, dinî kavramlar, mecazlar
+                        — şiirin hem söylem hem anlam boyutunu derinleştirir. Örneğin, el-Buhturî’nin bir beytinde Musa
+                        kıssasıyla halife övülür: <br>
+                        كأنك موسى والعدوّ فرعونُ <br>
+                        “Sen sanki Musa’sın, düşmanın Firavun.” (van Gelder, 1998).
+                        Bu dizede Firavun zulmün, Musa ise adaletin sembolü hâline gelir. Kur’an’da yer alan imgeler,
+                        şiirde güçlü siyasal metaforlar olarak kullanılır.
+                        Tasavvufi etkilerle yazılmış bazı şiirlerde ise Allah ve peygamber sevgisi, metafizik aşkla
+                        birleşir. Bağdat çevresinde Hallâc-ı Mansûr’un etkisinde yazılmış şiirler, bu anlayışın
+                        ürünüdür:<br>
+                        > أنا من أهوى ومن أهوى أنا <br>
+                        “Ben, sevdiğimim; sevdiğim de benim.” (Massignon, 1982, s. 112).
+                        Bu dize, vahdet-i vücûd düşüncesini, yani insanın ilahi olanla özdeşleşmesini şiirsel biçimde
+                        yansıtır. Böylece şiir, hem kutsalla hem bireyle ilişkilenir.
+                        <br> <br>
+                        6. KADIN TEMSİLİ VE AŞK ŞİİRİ: SARAY MERKEZLİ AŞKIN İDEALİZASYONU
+                        Kadın imgesinin şiirdeki temsili, hem Antik Yunan’ın lirik şiirlerinde hem de Abbâsî dönemi Arap
+                        şiirinde önemli bir yer tutar. Bu iki dönemdeki aşk şiirleri, toplumsal normları ve saray
+                        kültürünü yansıtan birer araç olarak dikkat çeker. Kadın figürü, genellikle idealize edilmiş bir
+                        aşkın taşıyıcısı ve şiirsel ilhamın kaynağı olarak konumlanmıştır.
+                        <br> <br>
+                        6.1 Sappho ve Kadın İmgeleri
+                        Antik Yunan’da Sappho’nun şiirleri, kadın kimliği ve aşkı üzerine yazılmış erken örneklerdendir.
+                        Sappho, kadınları sadece arzu nesnesi olarak değil, bağımsız bireyler olarak da ele alır:
+                        > Ἀνδρῶν ἀμφὶ ἔρωτα καὶ ἄνδρας ἐπιθυμεῖν ὑπό <br>
+                        “Kadınlar, erkeklere duydukları aşkla birlikte…” (Sappho, MÖ, Fragment 31).
+                        Bu şiirlerde aşk, fiziksel arzunun ötesinde duygusal ve zihinsel bir deneyim olarak işlenir.
+                        Sappho’nun aşk anlayışı, patriyarkal normlara karşı bir tür şiirsel özgürlük sunar.
+                        6.2 Abbâsî Dönemi Ve Kadın İmgeleri <br>
+                        Abbâsî şiirinde kadın, sıklıkla saray kültürünün ideal güzelliği olarak betimlenir. Ancak kadın
+                        şairler de bu temsilin ötesine geçerek kendi aşk anlayışlarını şiirleştirir. Örneğin, Velâde
+                        bint el-Müstakfî, aşkı ilahi ve ruhsal bir deneyim olarak tanımlar:
+                        > “Aşk, bir ruhun en yüksek noktasına, en derin özlemine yerleşir.” (Velâde bint el-Müstakfî)
+                        Bu yaklaşımda kadın, hem aşkın nesnesi hem de öznesi olarak temsil edilir. Kadın figürü, hem
+                        dünyevî arzunun hem de uhrevî yükselişin simgesidir. <br>
+                        6.3 Erkek Şairlerin Kadın Temsili <br>
+                        Abbâsî erkek şairlerinde ise kadın, genellikle arzu nesnesi olarak yüceltilir. Ancak bu
+                        yüceltme, bazen kahramanlık ve iktidar imgeleriyle birleşir. el-Mutenebbî’nin şu dizesinde aşk,
+                        bir zaferin sembolü hâline gelir: <br>
+                        > “O aşk, seni ararken bulduğum en güzel zaferdir.”( el-Mutenebbî, 1934).
+                        Burada kadın, erkeğin sosyal gücünü yansıtan ve yücelten bir metafor olarak yer alır. Aşk
+                        şiirleri, böylelikle hem bireysel duygu hem de toplumsal prestij unsuru taşır.
+                        <br> <br>
+                        7. ŞİİRİN TOPLUMSAL ELEŞTİRİ YÖNÜ: HİCİV VE TAŞLAMA GELENEĞİ <br>
+                        Şiir, yalnızca estetik bir tür değil, aynı zamanda toplumların eleştirel sesini dile getiren
+                        güçlü bir araç olmuştur. Hem Antik Yunan’da hem de Abbâsî döneminde hiciv (satirik şiir),
+                        toplumsal yapının ve iktidarın sorgulandığı bir tür olarak gelişmiştir. <br>
+                        7.1 Yunân Dünyasında Politik Taşlama <br>
+                        Antik Yunan'da hiciv özellikle tiyatro ve şiirle birleşmiş; Aristofanes gibi komedya yazarları
+                        yoluyla sistemli bir politik eleştiri biçimi hâline gelmiştir. Aristofanes’in Kurullar adlı
+                        eserinde siyasetçilerin ahlaki çöküşü, halkla olan bağın kopuşu hicvedilmiştir: <br>
+                        > “Sarayları, zenginlikleri bir kenara bırak, / Atina'da gerçek güç, halkın elinde olacak.”
+                        (Aristophanes, trans. 1997). <br>
+                        Bu tür dizeler, hem politik düzene hem de sınıf ayrımına dair açık eleştiriler içermekte-dir.
+                        Aristo’nun Poetika adlı eserinde de hiciv, dram ve komedinin bir alt türü olarak tanımlanır.
+                        7.2 Abbâsî Dönemi Arap Şiirinde Hicviyat <br>
+                        Abbâsî şiirinde hiciv, yalnızca bireysel değil, sistematik toplumsal eleştirilerle de iç içe
+                        geçmiştir. Mutanebbî, saray çevresindeki yozlaşmayı eleştiren şu dizeleriyle örnek bir hiciv
+                        şairidir: <br>
+                        > “Bir zamanlar azizdi, şimdi ise krallığın kölesi, / Topraklarından geçen yağmalar arasında
+                        zayıf kaldı.” (el-Mutenebbî, Dîvân, çev. Ahmet Kaya, 1999). <br>
+                        Abbâsî şairleri hicviyatı yalnızca yöneticilere değil, diğer şairlere, vezirlere, hatta halka da
+                        yöneltmiştir. Cerrâhî gibi şairler ise saray eğlenceleri, halktan kopukluk ve adaletsizlik gibi
+                        temaları işlemiştir. <br>
+                        7.3 Hicviyatın Toplumsal Rolü <br>
+                        Hiciv şiiri, her iki kültürde de sadece alaya almak ya da küçük düşürmek için değil, top-lumun
+                        derinlikli meselelerini dile getirmek için yazılmıştır. Hem Aristofanes hem de Mu-tanebbî,
+                        yönetici sınıfa karşı güçlü şiirsel duruşlar sergileyerek halkın sesi olmuştur. Bu du-rum,
+                        hicvin yalnızca bireysel değil, kolektif bir bilinç ve değişim talebi içerdiğini
+                        göstermekte-dir.
+                        <br> <br>
+                        8. SONUÇ
+                        Helenistik ve Abbâsî dönemlerinde şiir, yalnızca bireysel bir ifade biçimi değil, aynı za-manda
+                        toplumsal, politik ve kültürel işlevler taşıyan çok yönlü bir araç olmuştur. Helenistik dönemde
+                        şiir, saray çevresinde entelektüel ve estetik bir arayışın ürünü olarak yüceltilmiş, şairler
+                        sarayın ideolojisini hem desteklemiş hem de ince bir şekilde eleştirebilmiştir. Abbâsî döneminde
+                        ise şiir, daha çok siyasal, toplumsal ve ideolojik bir anlatım aracı olarak ortaya çıkmış; saray
+                        kültürüyle iç içe geçen bir edebî pratik hâline gelmiştir.
+                        Her iki dönem şairleri de sarayın koruyuculuğu altında üretim yapmış olsa da, farklı biçim ve
+                        içerik dünyaları geliştirmişlerdir. Helenistik şairler, mitolojik ve entelektüel sem-bollerle
+                        estetik zarafeti ön plana çıkarırken, Abbâsî şairleri içki meclislerinden halk eleştirisine
+                        kadar geniş bir yelpazede toplumsal gerçeklikleri dile getirmiştir.
+                        Sonuç olarak, bu karşılaştırmalı inceleme, şiirin yalnızca geçmişte değil bugün de kültü-rel
+                        yapıları anlamada ne denli güçlü bir yansıtıcı ve dönüştürücü araç olduğunu göstermekte-dir.
+                        Şiir, dönemin zihniyetini, saray-toplum ilişkisini ve bireysel özgürlük arayışını en yoğun
+                        biçimde yansıtan edebi form olarak, kültürel tarih içinde ayrıcalıklı bir yere sahiptir.
+                        <br> <br>
+                        KAYNAKÇA
+                        Aristophanes. (1997). The complete plays (P. Roche, Trans.). New American Library. (Orijinal
+                        eser M.Ö. 4. yüzyılda yazılmıştır) <br>
+                        Brockelmann, C. (1943). History of the Islamic Peoples. Harvard University Press. <br>
+                        Callimachus (1921). Epigrams (A.W. Mair, Ed. & Trans.). Loeb Classical Library, Harvard
+                        University Press. <br>
+                        Campbell, D. A. (1982). Greek lyric poetry: A selection. Harvard University Press. <br>
+                        Gibb, H. A. R. (1955). Arabic Literature. Oxford University Press. <br>
+                        Harder, M. (1999). Callimachus: Aetia and the Culture of the Hellenistic Court. Oxford
+                        Uni-versity Press. <br>
+                        Kraemer, R. (1985). The Islamic Context of Abu Nuwas. Journal of Near Eastern Studies. <br>
+                        Meleagros. (M.Ö.). Greek Anthology, Kitap V, Epigram 34. <br>
+                        Mutenebbî. (1964). Dîvân. Beyrut: Dâru’l-Kitâbi’l-Arabî. <br>
+                        Mutenebbî. (1999). Dîvân (Çev. A. Kaya). Kahire. <br>
+                        Pfeiffer, R. (1949). Callimachus. Oxford University Press. <br>
+                        Sappho. Fragment 31. <br>
+                        Theokritos. (1952). Idylls (A.S.F. Gow, Trans.). Cambridge University Press. <br>
+                        van Gelder, G. J. (1998). Classical Arabic literature: A library of Arabic literature anthology.
+                        NYU Press. <br>
+                        Velâde bint el-Müstakfî. Aşk Şiirlerinden Seçmeler. <br>
+                        Winkler, M. (1991). Theocritus and the Cultural Politics of Hellenistic Poetry. University of
+                        Chicago Press. <br>
+                    </p>
+
+
+
+                    <div class="post-footer">
+                        <button class="share-btn" id="shareBtn"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                height="18" fill="currentColor" class="bi bi-reply-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.921 11.9 1.353 8.62a.72.72 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z" />
+                            </svg>Paylaş </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card-bilgisayar">
+            <img src="../Assets/profil-fotoğrafı.jpg" alt="Profil Resmi" class="profile-img">
+            <h2 class="profile-name">Merve Nur Durmuş</h2>
+            <p class="profile-title">Eğitimci</p>
+            <p class="profile-description">27 yıllık yaşamında eğitimcilik, onun için yalnızca bilgi aktarmak değil;
+                ruhları ve düşünceleri şekillendirmek, öğrencileriyle birlikte yolculuğa çıkmak demektir.</p><a
+                href="../hakkında/index.html">Devamını oku </a>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="../ana-sayfa/index.html">Ana Sayfa</a>
+                <a class="seçili" href="../blog/index.html">Blog</a>
+                <a href="../galeri/index.html">Galeri</a>
+                <a href="../arşiv/index.html">Arşiv</a>
+                <a href="">Hakkında</a>
+            </div>
+            <div class="footer-social">
+                <a class="mail" target="_blank"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=drmsmervenur@gmail.com"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                        class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                        <path
+                            d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                    </svg></a>
+                <a class="insta" target="_blank" href="https://www.instagram.com/minervaietrusci/"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg></a>
+            </div>
+        </div>
+        <p>&copy; 2025 Merve Nur Durmuş. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
